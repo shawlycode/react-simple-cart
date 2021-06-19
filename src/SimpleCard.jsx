@@ -1,6 +1,9 @@
 
 import Title from './Title';
 import Description from './Description';
+import Image from './Image';
+import img from './images/TRIO.png';
+import './index.css';
 
 
 import React, { Component } from 'react';
@@ -10,9 +13,9 @@ class SimpleCard extends Component {
             <div className='Card-body'>
                 <div className='card-Content'>
                     <Title title='Trioka Coffee' />
-                    <Description description='Premium Gourmet coffee infused with herbs:Garnoderma, Ginseng and Tonkat ali ' />
+                    <Description description='Premium Gourmet coffee infused with herbs:Garnoderma, Ginseng ' />
                 </div>
-                <img imgurl ={img}/>
+                <Image imgUrl={img}/>
 
             </div>
         );
